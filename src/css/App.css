@@ -1,0 +1,109 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 75%;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.form-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-URL-btn {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputs-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.form input {
+  padding: 10px;
+  width: 85%;
+  border: 1px #eee solid;
+  border-radius: 6px;
+  margin-inline-end: 10px;
+  margin-top: 10px;
+}
+
+.form input[type="text"] :focus {
+  outline: none;
+}
+
+.form button[type="submit"] {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bm-listItems {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bm-Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.bm-content {
+  min-width: 20%;
+}
+
+.bm-content img {
+  margin-inline-end: 10px;
+}
+
+.delete-bm {
+  border: none;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding: 8px;
+  margin-inline-start: 20px;
+  background-color: grey;
+  color: #fff;
+}
+
+.delete-bm :focus {
+  outline: none;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
